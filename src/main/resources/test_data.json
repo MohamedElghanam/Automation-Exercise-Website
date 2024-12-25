@@ -1,0 +1,14 @@
+{
+  "login_data": {
+    "email": "aaib@test.com",
+    "password": "18121994"
+  },
+
+  "payment_data": {
+    "name_on_card": "Mohammed",
+    "card_number": "1234567890",
+    "cvc": "111",
+    "MM": "12",
+    "YYYY": "2025"
+  }
+}
