@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # About project
 In this project, I have automated the checkout process on the https://automationexercise.com/ website using Selenium WebDriver and TestNG. The objective is to ensure the smooth functionality of the checkout process, including selecting a product, adding it to the cart, proceeding to checkout, entering shipping and billing information, and completing the order.
 
@@ -35,20 +34,4 @@ I used Allure to generate test reports that provide detailed information about t
 5- Complete the order.
 6 Validate each step to ensure the correct functionality of the checkout process.
 =======
-"# Automation-Exercise-Website" 
-# Automation-Exercise-Website"
-This project is a solution for the AAIB Technical Assessment. It includes:
-- Web automation using Selenium with Java, TestNG and POM
-- Data-driven testing with JSON.
-- Allure reporting integration for test results.
 
-## Features
-- Adding products to the cart.
-- Checkout process automation.
-- Detailed test reports.
-
-## Requirements
-- Java 21
-- Maven 4.0+
-- ChromeDriver
->>>>>>> 56217b2d24feaaafc35d6a395a335e4b5ad44568
