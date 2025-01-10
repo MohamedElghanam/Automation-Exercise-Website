@@ -18,7 +18,6 @@ public class CheckoutPage extends BasePage {
     public void placeOrder() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("scrollBy(0, 6000)");
-//        Thread.sleep(4000);
 
         driver.findElement(placeOrderButton).click();
     }

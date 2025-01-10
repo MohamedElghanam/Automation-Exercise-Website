@@ -9,8 +9,7 @@ public class CartPage extends BasePage {
         super(driver);
     }
 
-    public void proceedToCheckout() throws InterruptedException {
-        Thread.sleep(2000);
+    public void proceedToCheckout(){
         driver.findElement(proceedToCheckoutButton).click();
     }
 

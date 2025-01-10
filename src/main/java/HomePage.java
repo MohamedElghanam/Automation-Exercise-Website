@@ -11,7 +11,7 @@ public class HomePage extends BasePage {
         super(driver);
     }
 
-    public void addProductToCart() throws InterruptedException {
+    public void addProductToCart() {
 
         driver.findElement(productsLink).click();
         JavascriptExecutor js = (JavascriptExecutor) driver;

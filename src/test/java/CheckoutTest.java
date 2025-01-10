@@ -7,7 +7,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.io.FileReader;
-import java.time.Duration;
 
 public class CheckoutTest {
     WebDriver driver;
@@ -20,7 +19,7 @@ public class CheckoutTest {
     public void setup() {
 
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
         driver.manage().window().maximize();
         driver.get("https://automationexercise.com/");
